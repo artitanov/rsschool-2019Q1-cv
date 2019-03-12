@@ -1,0 +1,163 @@
+section.first{
+    height: 80px;
+    text-align: center;
+    background: #525053;
+    padding-top: 15px;
+}
+section.second{
+    height: 70px;
+    background: #f7f5f8;
+}
+h1{
+    font-size: 40px;
+    color: #f7f5f8;
+    font-family: 'Sniglet', cursive;
+}
+h2{
+    font-size: 21px;
+    line-height: 27px;
+    color: #f7f5f8;
+    font-family: 'Sniglet', cursive;
+}
+section.second div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+div.iconcall{
+    background-image: url(../assets/img/header/tel.png);
+}
+div.iconmail{
+    background-image: url(../assets/img/header/mail.png);
+}
+div.iconcity{
+    background-image: url(../assets/img/header/locationb.png);
+}
+div.icongit{
+    background-image: url(../assets/img/header/github.png);
+}
+section.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section.second a{
+    text-decoration: none;
+    color: #525053;
+    font-size: 15px;
+    font-family: 'Sniglet', cursive;
+}
+p.contactme {
+    position: relative;
+    right: 34px;
+    top: 3px;
+}
+div.myphoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-position: 42% 100%;
+    background-size: 204%;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/main/myphoto.jpg)
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #525053;
+}
+main section {
+    margin-top: 100px;
+    position: relative;
+    bottom: 43px;
+}
+.myhistory {
+    width: 200px;
+    font-size: 16px;
+    width: 739px;
+    color: #f7f5f8;
+    font-family: 'Sniglet', cursive;
+    
+}
+section.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 265px;
+    background: #f7f5f8;
+}
+section.skills div {
+    width: 231px;
+    color: #525053;
+    font-family: 'Sniglet', cursive;
+    position: relative;
+    top: 50px;
+    line-height: 22px;
+}
+.mainskills ul{
+    list-style: square inside;
+}
+.codeexample a img {
+    width: 50%;
+    position: relative;
+    left: 42px;
+}
+.education ul{
+    list-style: square inside;
+    text-decoration: none;
+}
+.education ul a{
+    text-decoration: none;
+    color: #525053;
+}
+section.skills h2{
+    color: #525053;
+    font-size: 35px;
+    font-family: 'Sniglet', cursive;
+    border-bottom: 1px solid #525053;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.resize {
+    position: relative;
+    left: -22px;
+}
+footer{
+    height: 55px;
+    color: #848080;
+    background: #525053;
+    text-align: center;
+}
+footer p {
+    position: relative;
+    top: 20px;
+}
+/************HOVER's*********************/
+section.second a:hover {
+    position: relative;
+    bottom: 3px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.myphoto:hover{
+    width: 255px;
+    border-radius: 25px;
+    background-position: 42% 80%;
+}
+.codeexample a img:hover{
+    width: 62%;
+    position: relative;
+    left: 31px;
+}
+div.education ul a li:hover{
+    font-size: 1.2em;
+    background: #52505385;
+    color: #f7f5f8;
+}
+  /************HOVER's*********************/
